@@ -7,7 +7,7 @@ import cors from 'cors';
 dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 8080;
-app.use(cors({origin: 'http://localhost:3000'})); 
+app.use(cors({origin: 'https://jobs-search-delta.vercel.app'})); 
 app.use(express.json());
 app.use('/jobs', jobRoutes);
 app.get('/', (_req, res) => res.send('Job API is runninig'));
