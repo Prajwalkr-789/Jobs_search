@@ -37,7 +37,7 @@ export default function JobBoard() {
       return;
     }
     try {
-      const response = await axios.get("http://localhost:8080/jobs/all");
+      const response = await axios.get(`${process.env.NEXT_PUBLIC_BACKEND_URL}/jobs/all`);
       toast.dismiss();
       if (response.status == 200) {
         setJobListings(response.data);
