@@ -30,6 +30,13 @@ A modern full-stack job search platform where users can browse, filter, and expl
 
 ---
 
+## 🌐 Live Demo
+
+🔗 [View Live Site](https://jobs-search-delta.vercel.app/)
+
+> ⚠️ Note: The backend is hosted on [Render](https://render.com), so the **first request may take a few seconds** to wake up the server.
+
+
 ## 📁 Project Structure
 ```txt
 job-search-website/
